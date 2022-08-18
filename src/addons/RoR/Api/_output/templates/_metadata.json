@@ -1,0 +1,22 @@
+{
+    "public/account_api_key_add.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "312e047ff2f1cab3579182dd3a41091a"
+    },
+    "public/account_api_key_edit.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d4196c1fb6d7cddb4c2d4324cc30e234"
+    },
+    "public/account_api_key_list.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "f382cbd8398df6036e00a82ef88c1dc4"
+    },
+    "public/account_api_key_macros.html": {
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "dc422c2c2a4c291639750f08039be54d"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "rorwebapi.json": {
+        "hash": "01998f34cfe88cec8569a3a209d273c7"
+    },
+    "rorwebapiLogs.json": {
+        "hash": "9dd06f931f8bd4f9b62ce8d81f97cd7d"
+    },
+    "rorwebapiServers.json": {
+        "hash": "cc0a4b93f6d0278c780e2314d7cf9a75"
+    },
+    "rorwebapiServersCreate.json": {
+        "hash": "9763cf015f528f0c27fc9dcb5ef0b5a7"
+    },
+    "rorwebapiServersListAll.json": {
+        "hash": "1e6550d29f1440f244c3c1d7a84fa614"
+    },
+    "rorwebapiStatistics.json": {
+        "hash": "9708b4fa0f409e48f18bed846a5bd496"
+    }
+}

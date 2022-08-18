@@ -1,0 +1,10 @@
+{
+    "parent_navigation_id": "rorwebapiServers",
+    "display_order": 1,
+    "link": "web-api-manager/servers/list",
+    "icon": "",
+    "admin_permission_id": "",
+    "debug_only": false,
+    "development_only": false,
+    "hide_no_children": false
+}

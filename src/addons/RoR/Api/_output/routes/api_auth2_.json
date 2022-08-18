@@ -1,0 +1,11 @@
+{
+    "route_type": "api",
+    "route_prefix": "auth2",
+    "sub_name": "",
+    "format": "",
+    "build_class": "",
+    "build_method": "",
+    "controller": "RigsOfRods\\RigsOfRodsWebAPI:Auth",
+    "context": "",
+    "action_prefix": ""
+}

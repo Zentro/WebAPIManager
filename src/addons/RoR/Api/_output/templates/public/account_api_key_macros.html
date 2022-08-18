@@ -1,0 +1,18 @@
+<xf:macro name="copy_key_row" arg-apiKey="!">
+	<xf:formrow label="{{ phrase('api_key') }}" rowtype="button">
+		<xf:macro name="copy_key" arg-apiKey="{$apiKey}" />
+
+		<div class="formRow-explain">
+			<xf:macro name="key_usage" arg-apiKey="{$apiKey}" />
+		</div>
+	</xf:formrow>
+</xf:macro>
+
+<xf:macro name="copy_key" arg-apiKey="!">
+	<code class="js-copyTarget">{$apiKey.api_key}</code>
+	<xf:button icon="copy"
+		data-xf-init="copy-to-clipboard"
+		data-copy-target=".js-copyTarget"
+		data-success="{{ phrase('api_key_copied_to_clipboard') }}"
+		class="button--link" />
+</xf:macro>

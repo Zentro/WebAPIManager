@@ -1,0 +1,54 @@
+<xf:title>{{ phrase('api_keys') }}</xf:title>
+
+<xf:wrap template="account_wrapper" />
+
+<xf:pageaction>
+	<xf:button href="{{ link('account/api-keys/add') }}" icon="add" overlay="true">{{ phrase('add_api_key') }}</xf:button>
+</xf:pageaction>
+
+<xf:if is="$newKey">
+	<div class="blockMessage blockMessage--important blockMessage--iconic">
+		{{ phrase('api_key_x_created_or_updated_key_use_follows', {'title': $newKey.title}) }}
+		<div style="margin: 1em 0; text-align: center"><xf:macro template="account_api_key_macros" name="copy_key" arg-apiKey="{$newKey}" /></div>
+	</div>
+</xf:if>
+
+
+<xf:if is="$apiKeys is not empty">
+	<xf:form action="{{ link('account/api-keys/toggle') }}" class="block" ajax="true">
+		<div class="block-container">
+			<div class="block-body">
+				<xf:datalist>
+					<xf:foreach loop="$apiKeys" value="$apiKey">
+						<xf:datarow
+							label="{$apiKey.title}"
+							href="{{ link('account/api-keys/edit', $apiKey) }}"
+							delete="{{ link('account/api-keys/delete', $apiKey) }}"
+							overlay="true">
+							<xf:explain>
+								<ul class="listInline listInline--bullet">
+									<li>{$apiKey.api_key_snippet}</li>
+									<li>
+										{{ phrase('created') }}:
+										<xf:date time="{$apiKey.creation_date}"/>
+									</li>
+									<xf:if is="$apiKey.last_use_date">
+										<li>
+											{{ phrase('last_used') }}:
+											<xf:date time="{$apiKey.last_use_date}"/>
+										</li>
+									</xf:if>
+								</ul>
+							</xf:explain>
+							<xf:toggle name="active[{$apiKey.api_key_id}]" selected="$apiKey.active"
+									   class="dataList-cell--separated" submit="true"
+									   tooltip="{{ phrase('enable_disable_x', {'title': $apiKey.title}) }}" />
+						</xf:datarow>
+					</xf:foreach>
+				</xf:datalist>
+			</div>
+		</div>
+	</xf:form>
+<xf:else />
+	<div class="blockMessage">{{ phrase('no_items_have_been_created_yet') }}</div>
+</xf:if>

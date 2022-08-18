@@ -1,0 +1,10 @@
+{
+    "parent_navigation_id": "rorwebapi",
+    "display_order": 2,
+    "link": "web-api-manager/statistics",
+    "icon": "",
+    "admin_permission_id": "",
+    "debug_only": false,
+    "development_only": false,
+    "hide_no_children": false
+}

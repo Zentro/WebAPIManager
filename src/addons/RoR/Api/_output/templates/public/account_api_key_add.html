@@ -1,0 +1,23 @@
+<xf:title>{{ phrase('add_api_key') }}</xf:title>
+
+<xf:wrap template="account_wrapper" />
+
+<xf:form action="{{ link('account/api-key/add', $apiKey) }}" ajax="true" data-force-flash-message="on" class="block">
+	<div class="block-container">
+		<xf:textboxrow name="title"
+					   label="{{ phrase('title') }}"
+					   maxlength="{{ max_length($apiKey, 'title') }}"
+					   value="{$apiKey.title}">
+			<xf:explain>{{ phrase('provide_title_for_key_seen_list_api_keys') }}</xf:explain>
+		</xf:textboxrow>
+		
+		<xf:textboxrow name="fqdn"
+					   label="{{ phrase('ip_address') }}"
+					   maxlength="{{ max_length($apiKey, 'fqdn') }}"
+					   value="{$apiKey.fqdn}">
+		</xf:textboxrow>
+
+
+		<xf:submitrow icon="save" sticky="true" />
+	</div>
+</xf:form>

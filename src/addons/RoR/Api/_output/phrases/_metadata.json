@@ -1,0 +1,62 @@
+{
+    "admin_navigation.rorwebapi.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "fc00ea39ab083d669c8ec850d76ae98d"
+    },
+    "admin_navigation.rorwebapiLogs.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "b2d37ae1cedf42ff874289b721860af2"
+    },
+    "admin_navigation.rorwebapiServers.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "ac659513b2353187192e88c5d1988228"
+    },
+    "admin_navigation.rorwebapiServersCreate.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "7e662d083c9e1806805e8ba1bc685207"
+    },
+    "admin_navigation.rorwebapiServersListAll.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c315e6c3fc14a4b8dd34cdf7c748882c"
+    },
+    "admin_navigation.rorwebapiStatistics.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "c33e404a441c6ba9648f88af3c68a1ca"
+    },
+    "option.rorwebapiKey.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "656a6828d7ef1bb791e42087c4b5ee6e"
+    },
+    "option_explain.rorwebapiKey.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.rorwebapi.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "fc00ea39ab083d669c8ec850d76ae98d"
+    },
+    "option_group_description.rorwebapi.txt": {
+        "global_cache": false,
+        "version_id": 1000010,
+        "version_string": "1.0.0 Alpha",
+        "hash": "084feaec0e2d0d3fd02d33d6a2768fe1"
+    }
+}

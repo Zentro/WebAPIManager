@@ -1,10 +1,10 @@
 {
     "legacy_addon_id": "",
     "title": "Rigs of Rods Web API",
-    "description": "",
+    "description": "The Rigs of Rods Web API Manager is an add-on that allows you to manage the interaction between the Rigs of Rods Web API and XenForo.",
     "version_id": 1000010,
     "version_string": "1.0.0 Alpha",
-    "dev": "",
+    "dev": "Rafael Galvan <rafael.galvan@rigsofrods.org>",
     "dev_url": "",
     "faq_url": "",
     "support_url": "",
